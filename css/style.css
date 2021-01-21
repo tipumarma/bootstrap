@@ -1,0 +1,46 @@
+.box{
+	min-height: 120px;
+	background-color: red;
+	margin-top: 10px;
+}
+.ccp {
+    left: 80%;
+    bottom: 5% !important;
+}
+.ccn {
+    right: 0;
+    bottom: 5% !important;
+}
+.ccp, .ccn{
+    top: 86%;
+    width: 15%;
+}
+.carousel-indicators {
+    position: absolute;
+    right:80%;
+    bottom: 60%;
+    left: auto;
+    z-index: 2;
+    display: block;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
